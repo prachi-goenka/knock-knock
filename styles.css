@@ -1,0 +1,46 @@
+body{
+  background-color: teal;
+  text-align:center;
+}
+h1{
+  font-family: cursive;
+}
+.pressed{
+  box-shadow: 0 0 20px white;
+  background-color: teal;
+}
+.hover{
+  color: white;
+}
+.gameOver{
+  background-color: red;
+  box-shadow: 0 0 20px white;
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.bird{
+  background-color: yellow;
+  background-image: url("images/bird.png");
+  background-size: contain;
+}
+.dog{
+  background-color: blue;
+  background-image: url("images/dog.png");
+  background-size: contain;
+}
+.insect{
+  background-color: pink;
+  background-image: url("images/dragonfly.png");
+  background-size: contain;
+}
+.lion{
+  background-color: red;
+  background-image: url("images/lion.png");
+  background-size: contain;
+}
